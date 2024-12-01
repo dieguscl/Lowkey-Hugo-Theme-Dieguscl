@@ -357,13 +357,12 @@
   .header {
     @apply flex flex-row items-center justify-between;
   }
-
   .header .toggle-theme {
-    @apply w-6 h-6;
+    @apply w-6 h-6 fixed right-7 top-7 md:static md:inline-block ;
   }
 
   .title-large {
-    @apply text-4xl leading-snug font-bold text-gray-900 dark:text-gray-300;
+    @apply sm:text-4xl text-3xl text-left leading-snug font-bold text-gray-900 dark:text-gray-300;
   }
 
   .title-small {
