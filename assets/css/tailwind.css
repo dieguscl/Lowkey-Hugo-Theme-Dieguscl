@@ -357,8 +357,9 @@
   .header {
     @apply flex flex-row items-center justify-between;
   }
+
   .header .toggle-theme {
-    @apply w-6 h-6 absolute right-7 top-7 md:static md:inline-block ;
+    @apply w-6 h-6 absolute right-7 top-7 md:static md:inline-block;
   }
 
   .title-large {

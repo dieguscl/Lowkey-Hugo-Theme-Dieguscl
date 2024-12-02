@@ -2,7 +2,9 @@
 {{ $tiny := ($avatar.Fill "200x200 q90") }}
 
 <div class="flex-none w-20 h-20 rounded-full overflow-hidden">
-  <a href="{{ .Site.BaseURL }}">
+  <!-- TODO: don't hardcode -->
+  <!-- <a href="{{ .Site.Params.authorURL }}"> -->
+  <a href="https://github.com/dieguscl">
     <img
       srcset="{{- with $tiny.RelPermalink -}}{{.}} 200w{{- end -}}"
       src="{{ $avatar.RelPermalink }}"
